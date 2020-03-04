@@ -1,0 +1,406 @@
+
+/* header */
+.header .navbar {
+    background: linear-gradient(196.87deg, #146575 0%, #2FA47F 61.61%);
+}
+.header .navbar .title{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}
+.header .navbar .desc{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}
+.header .navbar .active{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+}
+.header .navbar li{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+.header .navbar a{
+    color: white !important;
+}
+
+
+/* jumbotron */
+.jumbotron{
+    background-color: black !important;
+}
+.jumbotron .btn-success{
+    margin-top: -20px;
+    padding: 10px 84px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.jumbotron h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 69px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.jumbotron .date{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.jumbotron .user{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.jumbotron .overlay-slide {
+	position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.jumbotron .overlay-slide:hover .desc {
+    transform: translate(0, 0);
+	transition: all 0.2s ease-in;
+}
+.jumbotron .overlay-slide .desc {
+	position: absolute;
+    box-sizing: border-box;
+    bottom: 0;
+    transform: translate(0, 100%);
+    background: linear-gradient(229.45deg, #146575 0%, #2FA47F 61.61%);
+opacity: 0.7;
+    transition: all 0.2s ease-in;
+    width: 95%;
+    height: 50%;
+    padding: 10px;
+}
+.jumbotron .overlay-slide .text-muted {
+	font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: white;
+}
+.jumbotron .overlay-slide h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+/* news */
+.news .card{
+    border-radius: 15px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
+}
+.news .card .badge{
+    background: #2FA47F;
+    border-radius: 4px;
+    padding: 5.5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.news .card .youtube{  
+    text-align: center;
+    opacity:1;	  
+    width:100%;
+    height:100%;
+    font-size: 48px;
+    position: relative;
+    top: 10%;
+    margin-left: 0;
+}
+.news .card .icon{
+    height: 240px;
+    width: 254px;
+    margin-bottom: 0;
+    margin-top: -80%;
+    margin-left: 0;
+    position: relative;
+}
+.news .card .card-body .text-muted{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #AFAFAF;
+}
+.news .card .card-body .card-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2FA47F;
+}
+.news .card .card-body .card-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #333333;
+}
+.news .card .card-body a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #146575;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.news .button .btn-success{
+    background: #2FA47F;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    height: 56px;
+}
+
+
+/* galeri */
+.galeri h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2FA47F;
+}
+.galeri .line{
+    margin-bottom: 100px;
+}
+.galeri .overlay-slide {
+	position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 270px;
+    height: 320px;
+    margin-bottom: 16px;
+}
+.galeri .overlay-slide:hover .desc {
+    transform: translate(0, 0);
+	transition: all 0.2s ease-in;
+}
+.galeri .overlay-slide .desc {
+	position: absolute;
+    box-sizing: border-box;
+    bottom: 0;
+    transform: translate(0, 100%);
+    background: linear-gradient(239.17deg, #146575 0%, #2FA47F 61.61%);
+    opacity: 0.7;
+    border-radius: 4px;
+    transition: all 0.2s ease-in;
+    width: 100%;
+    height: 40%;
+    padding: 10px;
+}
+.galeri .overlay-slide .text-muted {
+	font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: white;
+}
+.galeri .overlay-slide h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.galeri .button .btn-success{
+    background: #2FA47F;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    height: 56px;
+    margin-top: -50px;
+}
+
+/* footer */
+.footer{
+    padding-top: 80px;
+}
+.footer .footer-icon .title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 43px;
+    color: #00501D;
+    margin-top: 100px;
+}
+.footer .footer-icon .desc{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 28px;
+    color: #333333;
+}
+.footer .contact h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 33px;
+    color: #2FA47F;
+    margin-bottom: 16px;
+}
+.footer .contact p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    color: #333333;
+}
+.footer .support h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 33px;
+    color: #2FA47F;
+    margin-bottom: 16px;
+}
+.footer .copyright{
+    text-align: center;
+    background: linear-gradient(182.76deg, #146575 0%, #2FA47F 45.63%);
+    padding: 15px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.footer .copyright a{
+    color: yellow;
+}
+
+
+
+/* responsive */
+@media (min-width: 768px){
+    /* jumbotron */
+    .jumbotron .overlay-slide {
+        position: relative;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .jumbotron .overlay-slide:hover .desc {
+        transform: translate(0, 0);
+        transition: all 0.2s ease-in;
+    }
+    .jumbotron .overlay-slide .desc {
+        position: absolute;
+        box-sizing: border-box;
+        bottom: 0;
+        transform: translate(0, 100%);
+        background: linear-gradient(229.45deg, #146575 0%, #2FA47F 61.61%);
+    opacity: 0.7;
+        transition: all 0.2s ease-in;
+        width: 52%;
+        height: 50%;
+        padding: 10px;
+    }
+    .jumbotron .overlay-slide .text-muted {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 21px;
+        color: white;
+    }
+    .jumbotron .overlay-slide h5 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+    /* news */
+    .news .icon{
+        margin-left: 0 !important;
+    }
+    .news .icon .youtube{
+        margin-left: 20%;
+    }
+    /* galeri info */
+    .galeri .overlay-slide{
+        width: auto;
+        height: 230px;
+    }
+    .galeri .content .content-image-info{
+        width: 335px;
+        height: auto;
+        margin-bottom: 16px;
+    }
+    .galeri .button .btn-success{
+        margin-top: -10px;
+    }
+    
+}
+
+
+@media (min-width: 578px){
+    .jumbotron img{
+        justify-content: center !important;
+        margin-bottom: 10px;
+    }
+}
