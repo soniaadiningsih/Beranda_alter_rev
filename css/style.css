@@ -136,15 +136,16 @@ opacity: 0.7;
     text-transform: capitalize;
     color: #FFFFFF;
 }
+.news .card span{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
 .news .card .youtube{  
-    text-align: center;
-    opacity:1;	  
-    width:100%;
-    height:100%;
+    position: absolute;
+    top: 15%;
+    left: 40%;
     font-size: 48px;
-    position: relative;
-    top: 10%;
-    margin-left: 0;
 }
 .news .card .icon{
     height: 240px;
@@ -375,24 +376,50 @@ opacity: 0.7;
         color: #FFFFFF;
     }
     /* news */
-    .news .icon{
-        margin-left: 0 !important;
-    }
-    .news .icon .youtube{
-        margin-left: 20%;
-    }
+
     /* galeri info */
-    .galeri .overlay-slide{
+    .galeri .overlay-slide {
+        position: relative;
+        box-sizing: border-box;
+        overflow: hidden;
         width: auto;
-        height: 230px;
-    }
-    .galeri .content .content-image-info{
-        width: 335px;
         height: auto;
         margin-bottom: 16px;
     }
+    .galeri .overlay-slide:hover .desc {
+        transform: translate(0, 0);
+        transition: all 0.2s ease-in;
+    }
+    .galeri .overlay-slide .desc {
+        position: absolute;
+        box-sizing: border-box;
+        bottom: 0;
+        transform: translate(0, 100%);
+        background: linear-gradient(239.17deg, #146575 0%, #2FA47F 61.61%);
+        opacity: 0.7;
+        border-radius: 4px;
+        transition: all 0.2s ease-in;
+        width: 100% !important;
+        height: 40%;
+        padding: 10px;
+    }
+    .galeri .info .content-image-info{
+        margin-bottom: 16px;
+        width: 100% !important;
+        height: 350px !important;
+    }
+    .galeri .line{
+        margin-bottom: 100px !important;
+    }
     .galeri .button .btn-success{
         margin-top: -10px;
+    }
+
+    .news .card .youtube{  
+        position: absolute;
+        top: 15% !important;
+        left: 40% !important;
+        font-size: 48px;
     }
     
 }
@@ -402,5 +429,152 @@ opacity: 0.7;
     .jumbotron img{
         justify-content: center !important;
         margin-bottom: 10px;
+    }
+    .jumbotron .overlay-slide:hover .desc {
+        transform: translate(0, 0);
+        transition: all 0.2s ease-in;
+    }
+    .jumbotron .overlay-slide .desc {
+        position: absolute;
+        box-sizing: border-box;
+        bottom: 0;
+        transform: translate(0, 100%);
+        background: linear-gradient(229.45deg, #146575 0%, #2FA47F 61.61%);
+    opacity: 0.7;
+        transition: all 0.2s ease-in;
+        width: 72%;
+        height: 50%;
+        padding: 10px;
+    }
+    .galeri .line{
+        margin-bottom: 0;
+    }
+    .galeri .overlay-slide{
+        width: auto;
+        height: auto;
+        justify-content: center;
+    }
+    .galeri .overlay-slide .desc {
+        position: absolute;
+        box-sizing: border-box;
+        bottom: 0;
+        transform: translate(0, 100%);
+        background: linear-gradient(239.17deg, #146575 0%, #2FA47F 61.61%);
+        opacity: 0.7;
+        border-radius: 4px;
+        transition: all 0.2s ease-in;
+        width: 68%;
+        height: 40%;
+        padding: 10px;
+    }
+    .galeri .info .content-image-info{
+        margin-bottom: 16px;
+        width: auto;
+        height: auto;
+    }
+    .galeri .button .btn-success{
+        margin-top: 0;
+    }
+    .news .card span{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    .news .card .youtube{  
+        position: absolute;
+        top: 30%;
+        left: 45%;
+        font-size: 48px;
+    }
+}
+
+@media (min-width: 1200px){
+    .jumbotron .overlay-slide {
+        position: relative;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .jumbotron .overlay-slide:hover .desc {
+        transform: translate(0, 0);
+        transition: all 0.2s ease-in;
+    }
+    .jumbotron .overlay-slide .desc {
+        position: absolute;
+        box-sizing: border-box;
+        bottom: 0;
+        transform: translate(0, 100%);
+        background: linear-gradient(229.45deg, #146575 0%, #2FA47F 61.61%);
+    opacity: 0.7;
+        transition: all 0.2s ease-in;
+        width: 95%;
+        height: 50%;
+        padding: 10px;
+    }
+    .jumbotron .overlay-slide .text-muted {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 21px;
+        color: white;
+    }
+    .jumbotron .overlay-slide h5 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+
+    .galeri .line{
+        margin-bottom: 100px;
+    }
+    .galeri .content .content-image-info{
+        width: auto;
+        height: auto;
+        margin-bottom: 16px;
+    }
+    .galeri .overlay-slide {
+        position: relative;
+        box-sizing: border-box;
+        overflow: hidden;
+        width: 270px;
+        height: 320px;
+        margin-bottom: 16px;
+    }
+    .galeri .overlay-slide .desc {
+        position: absolute;
+        box-sizing: border-box;
+        bottom: 0;
+        transform: translate(0, 100%);
+        background: linear-gradient(239.17deg, #146575 0%, #2FA47F 61.61%);
+        opacity: 0.7;
+        border-radius: 4px;
+        transition: all 0.2s ease-in;
+        width: 100%;
+        height: 40%;
+        padding: 10px;
+    }
+    .galeri .button .btn-success{
+        background: #2FA47F;
+        box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+        height: 56px;
+        margin-top: -70px;
+    }
+
+    .news .card .youtube{  
+        position: absolute;
+        top: 15%;
+        left: 40%;
+        font-size: 48px;
     }
 }
